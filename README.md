@@ -18,8 +18,9 @@ The display are a 6 digit 7 segment display for time and a 4 digit display for d
 
 <P ALIGN="CENTER"><img src="Dsc01647sm.jpg" width=600>
 
-## How does it work?
 
+You will require SoftWare SerialLibrary (normally provided within the Arduino IDE.
+TinyGPS Library
 
 ## Does it compile?
 
@@ -34,7 +35,8 @@ Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging i
 As we don't send anything to the GPS pin 9 is left unconnected.
 
 ## Hardware Requirements.
-
+Arduino nano or Arduino of your choosing
+A suitable GPS module and GPS antenna.
 
 
 <P ALIGN="CENTER"><img src="Images/ftdiall.jpg" width=250>
