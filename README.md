@@ -14,7 +14,7 @@ This software is given freely for non-commercial use with no guarantee given or 
 ## What is this?
 
 An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
-The display are a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
+The display uses a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
 
 <P ALIGN="CENTER"><img src="Dsc01647sm.jpg" width=600>
 
