@@ -16,7 +16,7 @@ This software is given freely for non-commercial use with no guarantee given or 
 An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
 The display are a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
 
-<P ALIGN="CENTER"><img src="Images/Dsc01647sm.jpg" width=600>
+<P ALIGN="CENTER"><img src="Dsc01647sm.jpg" width=600>
 
 ## How does it work?
 
@@ -29,18 +29,13 @@ Built & tested using Arduino IDE Version 1.8.13
 
 SoftwareSerial from Arduino IDE Version 1.8.13
 
-LiquidCrystal     I2C-1.1.2     by Frank de Brabander
-
-
-We use the SoftwareSerial library for the coms to SDRuno. 
+We use the SoftwareSerial library for the coms from the GPS. 
 Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
+As we don't send anything to the GPS pin 9 is left unconnected.
 
 ## Hardware Requirements.
 
-<b>FTDI USB to SERIAL converter</b>
 
-The Arduino requires TTL levels (5v) but a computer uses RS232 levels. Never connect a computer directly to an Arduino or damage may occur.
-RS232 to TTL converters are easily and cheaply available online.            
 
 <P ALIGN="CENTER"><img src="Images/ftdiall.jpg" width=250>
 <P ALIGN="LEFT">
