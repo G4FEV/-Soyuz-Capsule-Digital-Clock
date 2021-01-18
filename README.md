@@ -45,6 +45,12 @@ A suitable GPS module and GPS antenna.
 
 The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch coax relays or slave relays.
 
+Circuit diagram arduino
+Circuit of clacker
+list of interfacees/switches and clacker.
+add transfer sheet
+Transfer sheet
+
 If you choose to use the Ready mounted Arduino relays available on auction sites "CAUTION". Many of these are Active LOW. 
 The code is designed for ACTIVE HIGH.
 You could swap all the Hi and lows but it would mean most of your relays would be operated all the time.
@@ -55,15 +61,15 @@ If you decide to use these Ready-Made Relay Boards look for the type with a jump
 
 <P ALIGN="CENTER"><img src="Images/Schematic1.jpg" width=600>
 
-## SOFTWARE
+## SOFTWARE Configuration
 
-Set the correct I2c address for your LCD I2c or you will just see a blank screen. (0x27) for older displays (0x3F) for newer displays or use the Arduino I2c scanner to discover the address.
+Default baud rate for GPS is set at 9600
+Brightness on display is set by.
+Clack routine set delay to suit your chosen relay
 
-<B>Setting the Band Limits</B>
 
-Modify this part of the code to suit your application, located near the top of the sketch.
-You may edit the frequencies and the Antenna / Filter name.
-Shown below are the first three, of 14, Bands
+
+
 
 <P ALIGN="LEFT"><img src="Images/Code1.png" width=600>
      
@@ -71,28 +77,7 @@ Notice how the next band up starts one Hertz above the last band.
 The bands don’t have to run contiguously. This is just an example.
 
 
-<B>SUGGESTION.</B>
 
-* Run the code unmodified using LEDs on the Band Outputs and see how they react to frequency changes before you modify for your own requirements. 
-
-* You don’t have to use all the outputs just park them out of the way near the 2GHz (or 1KHz) end of the spectrum so they never operate or comment them out.
-
-* Take care as you move higher up in the spectrum. There are lots of zeroooos to trip over. It’s easy to get in a right old mess. (I speak from experience!)
-
-Serial.print debug messages have been commented-out, apart from the current Frequency.
-
-Uncommenting the remaining Serial.print messages will allow the user to monitor the decoding process the results of which may be viewed on the serial monitor as the program runs. Remember to Re-comment Serial.print messages when you are finished and the code will run slightly faster.
-
-
-## SETTING UP SDRUno
-
-Plug in your USB to FTDI-TTL converter and note its Com port. On Windows find this in <i><b> Devices and Printers.</i></b>
-
-Top Left corner of theSDRUno <b> RX Control window </b> click the<b> SETT</b> button. Navigate along to the <b>CAT</b> option.
-
-Select the com port and set the Baud Rate to 9600. Select <B> Enable & Connect.</B>
-
-That’s it. 
 
 If all is well the Smart-Switch LCD display should change from <B>“Waiting for data”</B>
 
@@ -123,7 +108,6 @@ Remember to re-comment these before final use for optimum performance.
 
 ## Practical Application
 
-For antenna switching I use a 6 Way SMA relay configured for Bands A to F. The display unit is connected to the relay box located under the bench. 
-<P ALIGN="LEFT"><img src="Images/zsc001.JPG" width=200> <img src="Images/zsc002.JPG" width=200> <img src="Images/zsc003a.jpg" width=250>  
+
 
 That's all folks. 73 de Dave G4FEV.
