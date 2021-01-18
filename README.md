@@ -16,7 +16,7 @@ This software is given freely for non-commercial use with no guarantee given or 
 An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
 The display uses a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
 
-<P ALIGN="CENTER"><img src="Dsc01647sm.jpg" width=600>
+<P ALIGN="CENTER"><img src="Images/DSC016sm.jpg" width=250>
 
 
 You will require SoftWare SerialLibrary (normally provided within the Arduino IDE.
@@ -39,7 +39,7 @@ Arduino nano or Arduino of your choosing
 A suitable GPS module and GPS antenna.
 
 
-<P ALIGN="CENTER"><img src="Images/DSC016.jpg" width=250>
+<P ALIGN="CENTER"><img src="Images/DSC016sm.jpg" width=250>
 <P ALIGN="LEFT">
 <B> RELAYS </B>
 
