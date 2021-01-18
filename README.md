@@ -39,7 +39,7 @@ Arduino nano or Arduino of your choosing
 A suitable GPS module and GPS antenna.
 
 
-<P ALIGN="CENTER"><img src="Images/ftdiall.jpg" width=250>
+<P ALIGN="CENTER"><img src="Images/DSC016.jpg" width=250>
 <P ALIGN="LEFT">
 <B> RELAYS </B>
 
