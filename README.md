@@ -43,7 +43,8 @@ A suitable GPS module and GPS antenna.
 <P ALIGN="LEFT">
 <B> RELAYS </B>
 
-The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch coax relays or slave relays.
+An optional relay mey be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
+The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
 
 Circuit diagram arduino
 Circuit of clacker
@@ -52,9 +53,8 @@ add transfer sheet
 Transfer sheet
 edit gmt bst time
 
-If you choose to use the Ready mounted Arduino relays available on auction sites "CAUTION". Many of these are Active LOW. 
+If you choose to use the Ready mounted Arduino relay available on auction sites <B>"CAUTION"</B> as many of these are Active LOW. 
 The code is designed for ACTIVE HIGH.
-You could swap all the Hi and lows but it would mean most of your relays would be operated all the time.
 If you decide to use these Ready-Made Relay Boards look for the type with a jumper that can be set ACTIVE HI.
 
 <P ALIGN="LEFT"><img src="Images/relayno.jpg" width=200> <img src="Images/relayyes.jpg" width=200>  
@@ -66,7 +66,7 @@ If you decide to use these Ready-Made Relay Boards look for the type with a jump
 
 Default baud rate for GPS is set at 9600
 Brightness on display is set by.
-Clack routine set delay to suit your chosen relay
+Clack routine (See the clack void at the end of the sketch) set delay to suit your chosen relay
 Get the MAX7219 and its display woring first using the Hello Worls example sketch.
 
 
@@ -74,13 +74,11 @@ Get the MAX7219 and its display woring first using the Hello Worls example sketc
 
 <P ALIGN="LEFT"><img src="Images/Code1.png" width=600>
      
-Notice how the next band up starts one Hertz above the last band.
-The bands don’t have to run contiguously. This is just an example.
 
 
 
 
-If all is well the Smart-Switch LCD display should change from <B>“Waiting for data”</B>
+
 
 
 <P ALIGN="CENTER"><img src="Images/Capture2.jpg" width=600>
