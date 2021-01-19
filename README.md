@@ -50,6 +50,7 @@ Circuit of clacker
 list of interfacees/switches and clacker.
 add transfer sheet
 Transfer sheet
+edit gmt bst time
 
 If you choose to use the Ready mounted Arduino relays available on auction sites "CAUTION". Many of these are Active LOW. 
 The code is designed for ACTIVE HIGH.
