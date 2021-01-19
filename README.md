@@ -67,7 +67,7 @@ If you decide to use these Ready-Made Relay Boards look for the type with a jump
 Default baud rate for GPS is set at 9600
 Brightness on display is set by.
 Clack routine set delay to suit your chosen relay
-
+Get the MAX7219 and its display woring first using the Hello Worls example sketch.
 
 
 
