@@ -57,7 +57,7 @@ If you choose to use the Ready mounted Arduino relay available on auction sites 
 The code is designed for ACTIVE HIGH.
 If you decide to use these Ready-Made Relay Boards look for the type with a jumper that can be set ACTIVE HI.
 
-<P ALIGN="LEFT"><img src="Images/MAX7219.jpg" width=200> <img src="Images/relayyes.jpg" width=200>  
+<P ALIGN="LEFT"><img src="Images/MAX7219.jpg" width=200>  
  <img src="Images/back.jpg" width=400>
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
@@ -81,7 +81,7 @@ Get the MAX7219 and its display woring first using the Hello Worls example sketc
 
 
 
-<P ALIGN="CENTER"><img src="Images/swguards41.jpg" width=600>
+<P ALIGN="CENTER"><img src="Images/swguards4a.jpg" width=600>
 
 ## Notes.
 
