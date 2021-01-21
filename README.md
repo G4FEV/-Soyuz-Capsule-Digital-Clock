@@ -99,6 +99,8 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 <P ALIGN="LEFT"><img src="Images/back.jpg" width=600>
 
 <P ALIGN="LEFT"><img src="Images/primer1.jpg" width=600>
+ 
+ <P ALIGN="LEFT"><img src="Images/Soyuz_Labels.jpg" width=600>
 * <b>Multi VRX setups.</b> 
 
 
