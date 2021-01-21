@@ -14,32 +14,35 @@ This software is given freely for non-commercial use with no guarantee given or 
 ## What is this?
 
 An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
-The display uses a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
+The display uses a 6 digit 7 segment display forTtime and a 4 digit display for Date and Stopwatch.
 The clock is in the form of a Soyuz 744H digital clock installed in the Soyuz capsule.
-An internet search for Soyuz 744H digital clock will produce a host of interesting information
+An internet search for "Soyuz 744H digital clock" will produce a host of interesting information
 and videos on these rare and interesting icons from the early days of Space exploration.
 
 <P ALIGN="CENTER"><img src="Images/fronta1.jpg" width=650>
  
  
  ## Hardware Requirements.
-Arduino nano or Arduino of your choosing
-A suitable GPS module and GPS antenna.
+Arduino nano or Arduino of your choice. A suitable GPS module and GPS antenna.
 Two MAX7219 Display Drivers (MAX 7219 can only drive 8 displays, we require 10 for this project).
-Ten 0.36" Red 7 Segment Displays
-various things from the junk box. i.e 7805 DC regulator, Vero/matrix board 3 Toggle Switches, 2 Push-Botton Switches.
+Ten 0.36" Red 7 Segment Displays. Various things from the junk box. i.e 7805 DC regulator, Vero/Matrix board, 3 Toggle Switches, 2 Push-Botton Switches.
 
 For the case I used two Eddystone (Hammond) Die cast Boxs type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
-The boxs are bolted back to back to acheive the correct depth and the join filled with car body filler (Bondo).
-An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connector housing. (Which also provides an ideal location for a GPS Flat ceramic antenna)
+The boxs are bolted back-to-back to achieve the correct depth and the join filled with car body filler (Bondo).
+
+An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connector housing. (Which also provides an ideal location for a GPS flat ceramic antenna)
+
+<P ALIGN="CENTER"<img src="Images/back.jpg" width=400>
+<P ALIGN="LEFT">
+An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
+The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
+ 
+<P ALIGN="CENTER"><img src="Images/relaycctx.jpg" width=450>
 
 <P ALIGN="CENTER"><img src="Images/schemclocksm.jpg" width=450>
 <P ALIGN="LEFT">
-<B> RELAYS </B>
 
-An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
-The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
-<P ALIGN="CENTER"><img src="Images/relaycctx.jpg" width=450>
+
 
 ## SOFTWARE
 
@@ -73,7 +76,7 @@ The code is designed for ACTIVE HIGH.
 If you decide to use these Ready-Made Relay Boards look for the type with a jumper that can be set ACTIVE HI.
 
 <P ALIGN="LEFT"><img src="Images/MAX7219.jpg" width=400>  
- <img src="Images/back.jpg" width=400>
+ 
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
 
