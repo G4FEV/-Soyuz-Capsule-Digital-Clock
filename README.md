@@ -16,7 +16,7 @@ This software is given freely for non-commercial use with no guarantee given or 
 An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
 The display uses a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
 
-<P ALIGN="CENTER"><img src="Dsc01647sm.jpg" width=650>
+<P ALIGN="CENTER"><img src="Images/fronta1.jpg" width=650>
 
 
 You will require SoftWare SerialLibrary (normally provided within the Arduino IDE.
@@ -39,7 +39,7 @@ Arduino nano or Arduino of your choosing
 A suitable GPS module and GPS antenna.
 
 
-<P ALIGN="CENTER"><img src="Images/Dsc016sm.jpg" width=450>
+<P ALIGN="CENTER"><img src="Images/schemclocksm.jpg" width=450>
 <P ALIGN="LEFT">
 <B> RELAYS </B>
 
@@ -57,10 +57,10 @@ If you choose to use the Ready mounted Arduino relay available on auction sites 
 The code is designed for ACTIVE HIGH.
 If you decide to use these Ready-Made Relay Boards look for the type with a jumper that can be set ACTIVE HI.
 
-<P ALIGN="LEFT"><img src="Images/relayno.jpg" width=200> <img src="Images/relayyes.jpg" width=200>  
- <img src="Images/relaycct2.jpg" width=400>
+<P ALIGN="LEFT"><img src="Images/MAX7219.jpg" width=200> <img src="Images/relayyes.jpg" width=200>  
+ <img src="Images/back.jpg" width=400>
 
-<P ALIGN="CENTER"><img src="Images/Schematic1.jpg" width=600>
+<P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
 
 ## SOFTWARE Configuration
 
@@ -72,7 +72,7 @@ Get the MAX7219 and its display woring first using the Hello Worls example sketc
 
 
 
-<P ALIGN="LEFT"><img src="Images/Code1.png" width=600>
+<P ALIGN="LEFT"><img src="Images/guards.jpg" width=600>
      
 
 
@@ -81,7 +81,7 @@ Get the MAX7219 and its display woring first using the Hello Worls example sketc
 
 
 
-<P ALIGN="CENTER"><img src="Images/Capture2.jpg" width=600>
+<P ALIGN="CENTER"><img src="Images/swguards41.jpg" width=600>
 
 ## Notes.
 
@@ -93,7 +93,8 @@ You can use as many Smart-Switches as you like and allocate a Smart-Switch to ea
 
 * <b>Error message on starting SDRUno.</b> If you start SDRUno before connecting the FTDI USB converter it will throw up this error. It's no big deal, just go into the VRX <b>SETT</b> and toggle the <b>CAT</b> setting <b>ENABLE & CONNECT</b>
 
-<P ALIGN="CENTER"><img src="Images/Capture1.JPG" width=600>
+<P ALIGN="CENTER"><img src="Images/primer1.jpg" width=600>
+ <P ALIGN="CENTER"><img src="Images/Soyuz_Labels.jpg" width=600>
 
 * <b>LCD Blank Screen.</b>
 Have you set the correct I2c address for your LCD. These are normally  0x3F or 0xFF or even 0x27 if you have an older display.
