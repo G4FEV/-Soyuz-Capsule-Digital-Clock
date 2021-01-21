@@ -94,13 +94,9 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 
 
 
-
-
-
-
 <P ALIGN="CENTER"><img src="Images/swguard4a.jpg" width=600>
 
-
+<P ALIGN="LEFT"><img src="Images/back.jpg" width=600>
 
 
 * <b>Multi VRX setups.</b> 
