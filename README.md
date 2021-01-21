@@ -15,8 +15,33 @@ This software is given freely for non-commercial use with no guarantee given or 
 
 An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
 The display uses a 6 digit 7 segment display for time and a 4 digit display for date and stopwatch.
+The clock is in the form of a Soyuz 744H digital clock installed in the Soyuz capsule.
+An internet search for Soyuz 744H digital clock will produce a host of interesting information
+and videos on these rare and interesting icons from the early days of Space exploration.
 
 <P ALIGN="CENTER"><img src="Images/fronta1.jpg" width=650>
+ 
+ 
+ ## Hardware Requirements.
+Arduino nano or Arduino of your choosing
+A suitable GPS module and GPS antenna.
+Two MAX7219 Display Drivers (MAX 7219 can only drive 8 displays, we require 10 for this project).
+Ten 0.36" Red 7 Segment Displays
+various things from the junk box. i.e 7805 DC regulator, Vero/matrix board 3 Toggle Switches, 2 Push-Botton Switches.
+
+For the case I used two Eddystone (Hammond) Die cast Boxs type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
+The boxs are bolted back to back to acheive the correct depth and the join filled with car body filler (Bondo).
+An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connector housing. (Which also provides an ideal location for a GPS Flat ceramic antenna)
+
+<P ALIGN="CENTER"><img src="Images/schemclocksm.jpg" width=450>
+<P ALIGN="LEFT">
+<B> RELAYS </B>
+
+An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
+The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
+<P ALIGN="CENTER"><img src="Images/relaycctx.jpg" width=450>
+
+## SOFTWARE
 
 
 You will require SoftWare SerialLibrary (normally provided within the Arduino IDE.
@@ -34,17 +59,7 @@ We use the SoftwareSerial library for the coms from the GPS.
 Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
 As we don't send anything to the GPS pin 9 is left unconnected.
 
-## Hardware Requirements.
-Arduino nano or Arduino of your choosing
-A suitable GPS module and GPS antenna.
 
-
-<P ALIGN="CENTER"><img src="Images/schemclocksm.jpg" width=450>
-<P ALIGN="LEFT">
-<B> RELAYS </B>
-
-An optional relay mey be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
-The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
 
 Circuit diagram arduino
 Circuit of clacker
@@ -62,7 +77,7 @@ If you decide to use these Ready-Made Relay Boards look for the type with a jump
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
 
-## SOFTWARE Configuration
+
 
 Default baud rate for GPS is set at 9600
 Brightness on display is set by.
@@ -111,3 +126,5 @@ Remember to re-comment these before final use for optimum performance.
 
 
 That's all folks. 73 de Dave G4FEV.
+
+<a href="https://github.com/G4FEV/Soyuz-Capsule-Digital-Clock/archive/master.zip"><font size="2"> DOWNLOAD SOYUZ CLOCK PROJECT as zip</font></a>
