@@ -37,9 +37,9 @@ An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connect
 An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
 The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
  
-<P ALIGN="CENTER"><img src="Images/relaycctx.jpg" width=450>
-
-<P ALIGN="CENTER"><img src="Images/schemclocksm.jpg" width=450>
+<img src="Images/relaycctx.jpg" width=200>
+<img src="Images/schemclocksm.jpg" width=200>
+<img src="Images/MAX7219.jpg" width=200> 
 <P ALIGN="LEFT">
 
 
@@ -75,7 +75,7 @@ If you choose to use the Ready mounted Arduino relay available on auction sites 
 The code is designed for ACTIVE HIGH.
 If you decide to use these Ready-Made Relay Boards look for the type with a jumper that can be set ACTIVE HI.
 
-<P ALIGN="LEFT"><img src="Images/MAX7219.jpg" width=400>  
+ 
  
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
