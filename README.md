@@ -75,10 +75,10 @@ GMT offset time Default is 1 Hour.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
        
        lc.setIntensity(1,2);// 1=Lower display. Second digit=brightnes 0 to 15
 
-
+Clack Void (See the clack void at the end of the sketch) set delay to suit your chosen relay.
 
  
- 
+ ## Notes.
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
 
@@ -86,7 +86,7 @@ GMT offset time Default is 1 Hour.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 Brightness on display is set by.
-Clack routine (See the clack void at the end of the sketch) set delay to suit your chosen relay
+
 Get the MAX7219 and its display woring first using the Hello Worls example sketch.
 
 
@@ -103,7 +103,7 @@ Get the MAX7219 and its display woring first using the Hello Worls example sketc
 
 <P ALIGN="CENTER"><img src="Images/swguard4a.jpg" width=600>
 
-## Notes.
+
 
 
 * <b>Multi VRX setups.</b> 
