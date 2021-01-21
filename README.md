@@ -45,7 +45,7 @@ The maximum current an Arduino pin can switch is 40mA so we use a transistor to 
 
 
 ## SOFTWARE.
-<B>Does it compile?</B>
+<U><B>Does it compile?</B></U>
 
 You will require SoftWareSerial.h Library (normally provided within the Arduino IDE).
 <i>We use the SoftwareSerial library for the coms from the GPS. 
@@ -62,7 +62,7 @@ Built & tested using Arduino IDE Version 1.8.13
 
 
 
-<B>Software Settings.</B>
+<U><B>Software Settings.</B></U>
 Various settings may require editing to suit your requirements;-
 
 GPS Baud Rate. Default baud rate for GPS is set at 9600.
@@ -84,10 +84,7 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 
 
 
-
-Brightness on display is set by.
-
-Get the MAX7219 and its display woring first using the Hello Worls example sketch.
+* Get the MAX7219 and its display woring first using the Hello Worls example sketch.
 
 
 
@@ -107,26 +104,7 @@ Get the MAX7219 and its display woring first using the Hello Worls example sketc
 
 
 * <b>Multi VRX setups.</b> 
-You can use as many Smart-Switches as you like and allocate a Smart-Switch to each VRX. Just set the com port for each individual Smart-Switch to the VRX as above.
 
-* <b> Scanning.</b> It may be unwise to switch antennas while scanning. Ensure your scanning frequencies are all on one band for optimum performance. It will work however the switching time may cause signals to be lost during the changeover period.
-
-* <b>Error message on starting SDRUno.</b> If you start SDRUno before connecting the FTDI USB converter it will throw up this error. It's no big deal, just go into the VRX <b>SETT</b> and toggle the <b>CAT</b> setting <b>ENABLE & CONNECT</b>
-
-<P ALIGN="CENTER"><img src="Images/primer1.jpg" width=600>
- <P ALIGN="CENTER"><img src="Images/Soyuz_Labels.jpg" width=600>
-
-* <b>LCD Blank Screen.</b>
-Have you set the correct I2c address for your LCD. These are normally  0x3F or 0xFF or even 0x27 if you have an older display.
-Use the Arduino I2c scanner sketch to confirm your address and the Hello World example to check it works
-
-* <b>Serial.print messages.</b>
-If you uncomment ALL the Serial.print messages the code will run slower and a warning will appear when compiling;-      
-<P ALIGN="CENTER"><B><i>Low dynamic memory warning 78% may cause instability</B></i>
-
-Remember to re-comment these before final use for optimum performance.
-
-## Practical Application
 
 
 
