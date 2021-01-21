@@ -37,9 +37,9 @@ An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connect
 An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
 The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
  <br>
-<img src="Images/relaycctx.jpg" width=200>
-<img src="Images/schemclocksm.jpg" width=200>
-<img src="Images/MAX7219.jpg" width=200> 
+<img src="Images/relaycctx.jpg" width=300>
+<img src="Images/schemclocksm.jpg" width=300>
+<img src="Images/MAX7219.jpg" width=300> 
 <P ALIGN="LEFT">
  <br>
 
