@@ -45,35 +45,30 @@ The maximum current an Arduino pin can switch is 40mA so we use a transistor to 
 
 
 ## SOFTWARE
+# Does it compile?
 
+You will require SoftWareSerial Library (normally provided within the Arduino IDE).
 
-You will require SoftWare SerialLibrary (normally provided within the Arduino IDE.
 TinyGPS Library
-
-## Does it compile?
-
-Beware! There are several versions of  SoftwareSerial andTinyGPS libraries which may not be compatible without minor changes to the declarations.
 
 Built & tested using Arduino IDE Version 1.8.13
 
-SoftwareSerial from Arduino IDE Version 1.8.13
+
+Beware! There are several versions of  SoftwareSerial andTinyGPS libraries which may not be compatible without minor changes to the declarations.
 
 We use the SoftwareSerial library for the coms from the GPS. 
 Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
 As we don't send anything to the GPS pin 9 is left unconnected.
 
+# Does it compile?
+Various settings may require editing to suit your requirements;-
+
+GPS Baud Rate. Default baud rate for GPS is set at 9600.
+GMT offset tim.e Default is 1 Hour.
 
 
-Circuit diagram arduino
-Circuit of clacker
-list of interfacees/switches and clacker.
-add transfer sheet
-Transfer sheet
-edit gmt bst time
 
-If you choose to use the Ready mounted Arduino relay available on auction sites <B>"CAUTION"</B> as many of these are Active LOW. 
-The code is designed for ACTIVE HIGH.
-If you decide to use these Ready-Made Relay Boards look for the type with a jumper that can be set ACTIVE HI.
+
 
  
  
@@ -82,7 +77,7 @@ If you decide to use these Ready-Made Relay Boards look for the type with a jump
 
 
 
-Default baud rate for GPS is set at 9600
+
 Brightness on display is set by.
 Clack routine (See the clack void at the end of the sketch) set delay to suit your chosen relay
 Get the MAX7219 and its display woring first using the Hello Worls example sketch.
