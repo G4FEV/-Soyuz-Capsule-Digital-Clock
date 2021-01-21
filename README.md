@@ -44,29 +44,32 @@ The maximum current an Arduino pin can switch is 40mA so we use a transistor to 
  <br>
 
 
-## SOFTWARE
+## SOFTWARE.
 # Does it compile?
 
-You will require SoftWareSerial Library (normally provided within the Arduino IDE).
+You will require SoftWareSerial.h Library (normally provided within the Arduino IDE).
+<i>We use the SoftwareSerial library for the coms from the GPS. 
+Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
+As we don't send anything to the GPS pin 9 is left unconnected.</i>
 
-TinyGPS Library
+TinyGPS++.h Library
+
+LedControl.h Library Normally provided with Arduino IDE.
 
 Built & tested using Arduino IDE Version 1.8.13
 
+<B>Beware!</B> There are several versions of  SoftwareSerial andTinyGPS libraries which may not be compatible without minor changes to the declarations.
 
-Beware! There are several versions of  SoftwareSerial andTinyGPS libraries which may not be compatible without minor changes to the declarations.
 
-We use the SoftwareSerial library for the coms from the GPS. 
-Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
-As we don't send anything to the GPS pin 9 is left unconnected.
 
-# Does it compile?
+# Software Settings.
 Various settings may require editing to suit your requirements;-
 
 GPS Baud Rate. Default baud rate for GPS is set at 9600.
-GMT offset tim.e Default is 1 Hour.
-
-
+GMT offset time Default is 1 Hour.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+7 Segment Display Brightness.  Set by the following lines in Setup Void.
+       lc.setIntensity(0,2);// 0=Top display. Second digit=brightnes 0 to 15
+       lc.setIntensity(1,2);// 1=Lower display. Second digit=brightnes 0 to 15
 
 
 
