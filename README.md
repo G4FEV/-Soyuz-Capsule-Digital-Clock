@@ -79,11 +79,13 @@ GMT/UTC offset for daylight saving time is set by the variable GMTOffest = . can
 Clack Void (See the clack void at the end of the sketch) set delay to suit your chosen relay.
 
  
- ## Notes.
+##Build Notes
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
  
 <P ALIGN="CENTER">Translation of the front panel markings.
+ 
+  ----------------------------------------------------------------------
 
 <P ALIGN="LEFT"><img src="Images/guards.jpg" width=250>
              <img src="Images/swguard4a.jpg" width=300>
@@ -91,12 +93,17 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
  
 The switch guards are fabricated from 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
-<P ALIGN="CENTER"><img src="Images/back.jpg" width=300>
-<P ALIGN="CENTER"><img src="Images/primer1.jpg" width=200>
+ ----------------------------------------------------------------------
+
+<P ALIGN="CENTER"><img src="Images/back.jpg" width=400>
+<P ALIGN="CENTER"><img src="Images/primer1.jpg" width=400>
  
  The mounting flange was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
  
+  ----------------------------------------------------------------------
+ 
  <P ALIGN="CENTER"><img src="Images/Soyuz_Labels.jpg" width=600>
+ <br>
 This is a suggested template for the front panel Decals. Print this file onto A4 Waterslide Decal Transfer paper or edit using your favourite jpg editor.
 
 
