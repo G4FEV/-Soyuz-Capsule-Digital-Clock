@@ -83,11 +83,11 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
  
-Translation of the front panel markings.
+<P ALIGN="CENTER">Translation of the front panel markings.
 
 <P ALIGN="LEFT"><img src="Images/guards.jpg" width=280>
-   <img src="Images/swguard4a.jpg" width=280>
-   <img src="Images/pattern1a.jpg" width=280>
+             <img src="Images/swguard4a.jpg" width=280>
+             <img src="Images/pattern1a.jpg" width=280>
  
 The switch guards are fabricated using 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
