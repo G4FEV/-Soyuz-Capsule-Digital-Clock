@@ -84,20 +84,18 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
 translation of the front panel markings.
 
-
-<P ALIGN="LEFT"><img src="Images/guards.jpg" width=280>
-<P ALIGN="CENTER"><img src="Images/swguard4a.jpg" width=280>
- <P ALIGN="CENTER"><img src="Images/pattern1a.jpg" width=280>
+<P ALIGN="LEFT"><img src="Images/guards.jpg" width=250>
+<P ALIGN="CENTER"><img src="Images/swguard4a.jpg" width=250>
+<P ALIGN="CENTER"><img src="Images/pattern1a.jpg" width=250>
  
- The switch guards are fabricated using 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
-.
+The switch guards are fabricated using 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
+
 <P ALIGN="LEFT"><img src="Images/back.jpg" width=300>
 <P ALIGN="LEFT"><img src="Images/primer1.jpg" width=300>
  
  The mounting flange was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
  
  <P ALIGN="LEFT"><img src="Images/Soyuz_Labels.jpg" width=600>
-* <b>Multi VRX setups.</b> 
 
 
 
