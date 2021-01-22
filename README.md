@@ -35,7 +35,7 @@ An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connect
 <P ALIGN="CENTER"<img src="Images/back.jpg" width=400>
 <P ALIGN="LEFT">
 An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
-The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay.
+The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay. Alternativly a small Piezo sounder may provide a similar "ticking" effect.
  <br>
  <img src="Images/schemclocksm.jpg" width=280>
 <img src="Images/relaycctx.jpg" width=280>
@@ -85,8 +85,9 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 translation of the front panel markings.
 
 
-<P ALIGN="LEFT"><img src="Images/guards.jpg" width=300>
-<P ALIGN="CENTER"><img src="Images/swguard4a.jpg" width=300>
+<P ALIGN="LEFT"><img src="Images/guards.jpg" width=280>
+<P ALIGN="CENTER"><img src="Images/swguard4a.jpg" width=280>
+ <P ALIGN="CENTER"><img src="Images/pattern1a.jpg" width=280>
  
  The switch guards are fabricated using 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 .
