@@ -87,17 +87,17 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
 
 <P ALIGN="LEFT"><img src="Images/guards.jpg" width=250>
              <img src="Images/swguard4a.jpg" width=300>
-             <img src="Images/pattern1a.jpg" width=300>
+             <img src="Images/pattern1a.jpg" width=290>
  
-The switch guards are fabricated using 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
+The switch guards are fabricated from 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
-<P ALIGN="LEFT"><img src="Images/back.jpg" width=300>
-<P ALIGN="LEFT"><img src="Images/primer1.jpg" width=300>
+<P ALIGN="CENTER"><img src="Images/back.jpg" width=300>
+<P ALIGN="CENTER"><img src="Images/primer1.jpg" width=200>
  
  The mounting flange was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
  
- <P ALIGN="LEFT"><img src="Images/Soyuz_Labels.jpg" width=600>
-
+ <P ALIGN="CENTER"><img src="Images/Soyuz_Labels.jpg" width=600>
+This is a suggested template for the front panel Decals. Print this file onto A4 Waterslide Decal Transfer paper or edit using your favourite jpg editor.
 
 
 
