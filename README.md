@@ -48,7 +48,7 @@ The maximum current an Arduino pin can switch is 40mA so we use a transistor to 
 
 
 ## SOFTWARE.
-<U><B>Does it compile?</B></U>
+<B>Does it compile?</B>
 
 You will require SoftwareSerial.h Library (normally provided within the Arduino IDE).
 <i>We use the SoftwareSerial library for the coms from the GPS. 
@@ -65,7 +65,7 @@ Built & tested using Arduino IDE Version 1.8.13
 
 
 
-<U><B>Software Settings.</B></U>
+<B>Software Settings.</B>
 Various settings may require editing to suit your requirements;-
 
 GPS Baud Rate. Default baud rate for GPS is set at 9600.
@@ -85,7 +85,7 @@ Clack Void (See the Clack void at the end of the sketch) set delay to suit your 
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
  
-<P ALIGN="CENTER"><u>Translation of the front panel markings.</u>
+<P ALIGN="CENTER">Translation of the front panel markings.
  
   ----------------------------------------------------------------------
 
@@ -93,14 +93,14 @@ Clack Void (See the Clack void at the end of the sketch) set delay to suit your 
              <img src="Images/swguard4a.jpg" width=300>
              <img src="Images/pattern1a.jpg" width=290>
  
-<u>The switch guards</u> are fabricated from 4mm Aluminium using a jewellers  saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
+The switch guards are fabricated from 4mm Aluminium using a jewellers  saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
  ----------------------------------------------------------------------
 
 <P ALIGN="CENTER"><img src="Images/back.jpg" width=400>
 <P ALIGN="CENTER"><img src="Images/primer1.jpg" width=400>
  
- <u>The mounting flange </u>was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
+The mounting flange was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
  
   ----------------------------------------------------------------------
  
