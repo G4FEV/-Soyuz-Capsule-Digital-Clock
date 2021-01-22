@@ -13,8 +13,8 @@ This software is given freely for non-commercial use with no guarantee given or 
 
 ## What is this?
 
-An Arduino is used to decode NMEA data from a GPS Module and display the time and date.
-The display uses a 6 digit 7 segment display forTtime and a 4 digit display for Date and Stopwatch.
+An Arduino is used to decode NMEA data from a GPS Module and display the Time and Date.
+The display uses a 6 digit 7 segment display for Time and a 4 digit display for Date and Stopwatch.
 The clock is in the form of a Soyuz 744H digital clock installed in the Soyuz capsule.
 An internet search for "Soyuz 744H digital clock" will produce a host of interesting information
 and videos on these rare and interesting icons from the early days of Space exploration.
@@ -23,9 +23,11 @@ and videos on these rare and interesting icons from the early days of Space expl
  
  
  ## Hardware Requirements.
-Arduino nano or Arduino of your choice. A suitable GPS module and GPS antenna.
+Arduino nano or Arduino of your choice.
+<br>A suitable GPS module and GPS antenna.
 Two MAX7219 Display Drivers (MAX 7219 can only drive 8 displays, we require 10 for this project).
-Ten 0.36" Red 7 Segment Displays. Various things from the junk box. i.e 7805 DC regulator, Vero/Matrix board, 3 Toggle Switches, 2 Push-Botton Switches.
+Ten 0.36" Red 7 Segment Displays. 
+Various things from the junk box. i.e 7805 DC regulator, Vero/Matrix board, 3 Toggle Switches, 2 Push-Button Switches.
 
 For the case I used two Eddystone (Hammond) Die cast Boxs type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
 The boxs are bolted back-to-back to achieve the correct depth and the join filled with car body filler (Bondo).
@@ -35,7 +37,7 @@ An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connect
 <P ALIGN="CENTER"<img src="Images/back.jpg" width=400>
 <P ALIGN="LEFT">
 An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
-The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay. Alternativly a small Piezo sounder may provide a similar "ticking" effect.
+The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay. Alternatively a small Piezo sounder may provide a similar "ticking" effect.
  <br>
  <img src="Images/schemclocksm.jpg" width=280>
 <img src="Images/relaycctx.jpg" width=280>
@@ -72,14 +74,14 @@ GMT/UTC offset for daylight saving time is set by the variable GMTOffest = . can
 
 7 Segment Display Brightness.  Set by the following lines in Setup Void. (Default is 5)
 
-       lc.setIntensity(0,5);// 0=Top display. Second digit=brightnes 0 to 15
+       lc.setIntensity(0,5);// 0=Top display. Second digit=brightness 0 to 15
        
-       lc.setIntensity(1,5);// 1=Lower display. Second digit=brightnes 0 to 15
+       lc.setIntensity(1,5);// 1=Lower display. Second digit=brightness 0 to 15
 
 Clack Void (See the clack void at the end of the sketch) set delay to suit your chosen relay.
 
  
-##Build Notes
+## Build Notes
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
  
@@ -91,7 +93,7 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
              <img src="Images/swguard4a.jpg" width=300>
              <img src="Images/pattern1a.jpg" width=290>
  
-The switch guards are fabricated from 4mm Alluminium using a jewelers saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
+The switch guards are fabricated from 4mm Aluminium using a jewellers  saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
  ----------------------------------------------------------------------
 
