@@ -78,14 +78,14 @@ GMT/UTC offset for daylight saving time is set by the variable GMTOffest = . can
        
        lc.setIntensity(1,5);// 1=Lower display. Second digit=brightness 0 to 15
 
-Clack Void (See the clack void at the end of the sketch) set delay to suit your chosen relay.
+Clack Void (See the Clack void at the end of the sketch) set delay to suit your chosen relay for the ticking sound.
 
  
 ## Build Notes
 
 <P ALIGN="CENTER"><img src="Images/translation.jpg" width=600>
  
-<P ALIGN="CENTER">Translation of the front panel markings.
+<P ALIGN="CENTER"><u>Translation of the front panel markings.</u>
  
   ----------------------------------------------------------------------
 
@@ -93,14 +93,14 @@ Clack Void (See the clack void at the end of the sketch) set delay to suit your 
              <img src="Images/swguard4a.jpg" width=300>
              <img src="Images/pattern1a.jpg" width=290>
  
-The switch guards are fabricated from 4mm Aluminium using a jewellers  saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
+<u>The switch guards</u> are fabricated from 4mm Aluminium using a jewellers  saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
  ----------------------------------------------------------------------
 
 <P ALIGN="CENTER"><img src="Images/back.jpg" width=400>
 <P ALIGN="CENTER"><img src="Images/primer1.jpg" width=400>
  
- The mounting flange was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
+ <u>The mounting flange </u>was cut from Paxolin board or a similar plastic and bonded to the case with 2 pack epoxy glue.
  
   ----------------------------------------------------------------------
  
@@ -110,6 +110,6 @@ This is a suggested template for the front panel Decals. Print this file onto A4
 
 
 
-That's all folks. 73 de Dave G4FEV.
+That's all folks. 
 
 <a href="https://github.com/G4FEV/Soyuz-Capsule-Digital-Clock/archive/master.zip"><font size="2"> DOWNLOAD SOYUZ CLOCK PROJECT as zip</font></a>
