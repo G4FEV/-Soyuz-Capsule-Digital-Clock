@@ -52,10 +52,13 @@ The maximum current an Arduino pin can switch is 40mA so we use a transistor to 
 
 You will require SoftwareSerial.h Library (normally provided within the Arduino IDE).
 <i>We use the SoftwareSerial library for the coms from the GPS. 
-Pin 8 is Rxd and 9 Txd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
-As we don't send anything to the GPS pin 9 is left unconnected.</i>
+Pin 8 is Rxd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
+As we never send anything to the GPS so Tx is set to Null (255) which saves a pin for future use.</i>
 
-TinyGPS++.h Library
+TinyGPS++.h Library. 
+It MUST be Mikal Haets TinyGPSPlus. (See Notes at foot of page)  http://arduiniana.org/libraries/tinygpsplus
+
+Timelib.h  Paul Stoffregen's Time Library. https://github.com/PaulStoffregen/Time used to set your local time offset from UTC.
 
 LedControl.h Library Normally provided with Arduino IDE.
 
@@ -70,7 +73,8 @@ Various settings may require editing to suit your requirements;-
 
 GPS Baud Rate. Default baud rate for GPS is set at 9600.
 
-GMT/UTC offset for daylight saving time is set by the variable GMTOffest = . can be a positive or negative number.
+Set your local time offset from UTC.
+GMT/UTC offset for daylight saving time is set by the variable GMTOffest = ? can be a positive or negative number.(See Notes at foot of page)
 
 7 Segment Display Brightness.  Set by the following lines in Setup Void. (Default is 5)
 
@@ -107,8 +111,12 @@ The mounting flange was cut from Paxolin board or a similar plastic and bonded t
  <P ALIGN="CENTER"><img src="Images/Soyuz_Labels.jpg" width=600>
  <br>
 This is a suggested template for the front panel Decals. Print this file onto A4 Waterslide Decal Transfer paper or edit using your favourite jpg editor.
-
-
+ 
+## Useful Informatiom.
+This code was written in the UK before I even thought it may be used elsewhere in the world hence you will see variables named GMT & BST. These are Grenwich Mean Time (UTC) and British Summer Time (Equivalent to your Summer Daylight Saving Time). Both may be set near the top of the sketch
+ 
+Most GPS modules will output a reliable time from first switch on before the GPS achieves Sat Lock. I found TinyGPS library did not do this so converted to TinyGPSPlus library. Additionally I added Battery Backup (Two AAA of AA Cels) to the Neo 6  GPS module to speed up Sat Lock. Suggestion: The GPS is powered permanantly regardless of switch posion so the GPS is constantly locked.
+ 
 
 That's all folks. 
 
