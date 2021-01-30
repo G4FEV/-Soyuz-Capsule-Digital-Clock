@@ -4,7 +4,7 @@
 
 ## David Whitty G4FEV
 
-<i>Last edit 18th Jan 2021.</i>
+<i>Last edit 29th Jan 2021.</i>
 
 This software is given freely for non-commercial use with no guarantee given or implied.
 
@@ -14,10 +14,10 @@ This software is given freely for non-commercial use with no guarantee given or 
 ## What is this?
 
 An Arduino is used to decode NMEA data from a GPS Module and display the Time and Date.
-The display uses a 6 digit 7 segment display for Time and a 4 digit display for Date and Stopwatch.
+The display uses a <br>6 digit 7 segment display for Time and a 4 digit display for Date and Stopwatch.
 The clock is in the form of a Soyuz 744H digital clock installed in the Soyuz capsule.
 An internet search for "Soyuz 744H digital clock" will produce a host of interesting information
-and videos on these rare and interesting icons from the early days of Space exploration.
+and videos on these rare and interesting icons from the early days of Soviet Space exploration.
 
 <P ALIGN="CENTER"><img src="Images/fronta1.jpg" width=650>
  
@@ -29,21 +29,22 @@ Two MAX7219 Display Drivers (MAX 7219 can only drive 8 displays, we require 10 f
 Ten 0.36" Red 7 Segment Displays. 
 Various things from the junk box. i.e 7805 DC regulator, Vero/Matrix board, 3 Toggle Switches, 2 Push-Button Switches.
 
-For the case I used two Eddystone (Hammond) Die cast Boxs type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
+For the case uses two Eddystone (Hammond) Die Cast Boxs type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
 The boxs are bolted back-to-back to achieve the correct depth and the join filled with car body filler (Bondo).
 
-An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connector housing. (Which also provides an ideal location for a GPS flat ceramic antenna)
+An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connector housing. (Which also provides an ideal location for a GPS flat ceramic antenna).
 
 <P ALIGN="CENTER"<img src="Images/back.jpg" width=400>
 <P ALIGN="LEFT">
-An optional relay may be added on pin D3 which is used to simply add a ticking sound when D3 is pulsed (The clacker)
+An optional relay may be added on pin D3 which is used to add a ticking sound when D3 is pulsed (The clacker)
 The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay. Alternatively a small Piezo sounder may provide a similar "ticking" effect.
  <br>
+ <P ALIGN="CENTER">
  <img src="Images/schemclocksm.jpg" width=280>
 <img src="Images/relaycctx.jpg" width=280>
 <img src="Images/MAX7219.jpg" width=280> 
 <P ALIGN="LEFT">
- * Get the MAX7219 and its display working first using the Hello World example sketch included with the IDE.
+ * Suggestion: Use the Hello-World example sketch, included with the IDE, to ensure the display is working first.
  <br>
 
 
@@ -56,7 +57,7 @@ Pin 8 is Rxd which leaves the normal Arduino coms port for debugging information
 As we never send anything to the GPS so Tx is set to Null (255) which saves a pin for future use.</i>
 
 TinyGPS++.h Library. 
-It MUST be Mikal Haets TinyGPSPlus. (See Notes at foot of page)  http://arduiniana.org/libraries/tinygpsplus
+It MUST be Mikal Harts TinyGPSPlus. (See Notes at foot of page)<br>  http://arduiniana.org/libraries/tinygpsplus
 
 Timelib.h  Paul Stoffregen's Time Library. https://github.com/PaulStoffregen/Time used to set your local time offset from UTC.
 
