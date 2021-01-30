@@ -14,7 +14,7 @@ This software is given freely for non-commercial use with no guarantee given or 
 ## What is this?
 
 An Arduino is used to decode NMEA data from a GPS Module and display the Time and Date.
-The display uses a <br>6 digit 7 segment display for Time and a 4 digit display for Date and Stopwatch.
+The display uses a 6 digit 7 segment<br> display for Time and a 4 digit display for Date and Stopwatch.
 The clock is in the form of a Soyuz 744H digital clock installed in the Soyuz capsule.
 An internet search for "Soyuz 744H digital clock" will produce a host of interesting information
 and videos on these rare and interesting icons from the early days of Soviet Space exploration.
@@ -75,7 +75,7 @@ Various settings may require editing to suit your requirements;-
 GPS Baud Rate. Default baud rate for GPS is set at 9600.
 
 Set your local time offset from UTC.
-GMT/UTC offset for daylight saving time is set by the variable GMTOffest = ? can be a positive or negative number.(See Notes at foot of page)
+GMT/UTC offset for daylight saving time is set by the variable GMTOffest = ? which may be a positive or negative number. (See Notes at foot of page)
 
 7 Segment Display Brightness.  Set by the following lines in Setup Void. (Default is 5)
 
@@ -116,7 +116,7 @@ This is a suggested template for the front panel Decals. Print this file onto A4
 ## Useful Informatiom.
 This code was written in the UK before I even thought it may be used elsewhere in the world hence you will see variables named GMT & BST. These are Grenwich Mean Time (UTC) and British Summer Time (Equivalent to your Summer Daylight Saving Time). Both may be set near the top of the sketch
  
-Most GPS modules will output a reliable time from first switch on before the GPS achieves Sat Lock. I found TinyGPS library did not do this so converted to TinyGPSPlus library. Additionally I added Battery Backup (Two AAA of AA Cels) to the Neo 6  GPS module to speed up Sat Lock. Suggestion: The GPS is powered permanantly regardless of switch posion so the GPS is constantly locked.
+Most GPS modules will output a reliable time from first switch on before the GPS achieves Sat Lock. I found TinyGPS library did not do this so converted to TinyGPSPlus library. Additionally I added Battery Backup (Two AAA of AA Cels) to the Neo-6  GPS module to speed up Sat Lock. Suggestion: The GPS is powered permanantly regardless of switch posion so the GPS is constantly locked.
  
 
 That's all folks. 
