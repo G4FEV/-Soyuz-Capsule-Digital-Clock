@@ -17,7 +17,7 @@ Your UTC and Daylght Saving Time offsets may be set near the top
 of the sketch may Both may be set near the top of the sketch.
   
             github page for this project is here.
-            https://github.com/G4FEV/-Soyuz-Capsule-Digital-Clock-
+            https://github.com/G4FEV/-Soyuz-Capsule-Digital-Clock
 
 
 /////////////////List of interface connections.//////////////////////
