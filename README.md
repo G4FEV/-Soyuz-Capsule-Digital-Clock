@@ -14,7 +14,7 @@ This software is given freely for non-commercial use with no guarantee given or 
 ## What is this?
 
 An Arduino is used to decode NMEA data from a GPS Module and display the Time and Date.
-The display uses a 6 digit 7 segment<br> display for Time and a 4 digit display for Date and Stopwatch.
+The display uses a 6 digit 7 segment display for Time and a 4 digit display for Date and Stopwatch.
 The clock is in the form of a Soyuz 744H digital clock installed in the Soyuz capsule.
 An internet search for "Soyuz 744H digital clock" will produce a host of interesting information
 and videos on these rare and interesting icons from the early days of Soviet Space exploration.
@@ -25,18 +25,18 @@ and videos on these rare and interesting icons from the early days of Soviet Spa
  ## Hardware Requirements.
 Arduino nano or Arduino of your choice.
 <br>A suitable GPS module and GPS antenna.
-Two MAX7219 Display Drivers (MAX 7219 can only drive 8 displays, we require 10 for this project).
+Two MAX7219 Display Drivers (MAX7219 can only drive 8 displays, we require 10 for this project).
 Ten 0.36" Red 7 Segment Displays. 
 Various things from the junk box. i.e 7805 DC regulator, Vero/Matrix board, 3 Toggle Switches, 2 Push-Button Switches.
 
-For the case uses two Eddystone (Hammond) Die Cast Boxs type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
-The boxs are bolted back-to-back to achieve the correct depth and the join filled with car body filler (Bondo).
+The case uses two Eddystone (Hammond) Die Cast Box's type 396 (145x95x49) which are fairly close but not exactly 1:1 scale with the original.
+The boxs are bolted back-to-back to achieve the correct depth. The join is filled with car body filler (Bondo).
 
 An optional 52x38x31mm box fixed to the rear cover to replicate the "X1" connector housing. (Which also provides an ideal location for a GPS flat ceramic antenna).
 
 <P ALIGN="CENTER"<img src="Images/back.jpg" width=400>
 <P ALIGN="LEFT">
-An optional relay may be added on pin D3 which is used to add a ticking sound when D3 is pulsed (The clacker)
+An optional relay may be added on pin D3 which is used to add a ticking sound when D3 is pulsed (The clacker).
 The maximum current an Arduino pin can switch is 40mA so we use a transistor to switch the relay. Alternatively a small Piezo sounder may provide a similar "ticking" effect.
  <br>
  <P ALIGN="CENTER">
@@ -54,7 +54,7 @@ The maximum current an Arduino pin can switch is 40mA so we use a transistor to 
 You will require SoftwareSerial.h Library (normally provided within the Arduino IDE).
 <i>We use the SoftwareSerial library for the coms from the GPS. 
 Pin 8 is Rxd which leaves the normal Arduino coms port for debugging information via the IDE Serial Monitor.
-As we never send anything to the GPS so Tx is set to Null (255) which saves a pin for future use.</i>
+As we never send anything to the GPS Tx is set to Null (255) which saves a pin for future use.</i>
 
 TinyGPS++.h Library. 
 It MUST be Mikal Harts TinyGPSPlus. (See Notes at foot of page)<br>  http://arduiniana.org/libraries/tinygpsplus
@@ -83,7 +83,7 @@ GMT/UTC offset for daylight saving time is set by the variable GMTOffest = ? whi
        
        lc.setIntensity(1,5);// 1=Lower display. Second digit=brightness 0 to 15
 
-Clack Void (See the Clack void at the end of the sketch) set delay to suit your chosen relay for the ticking sound.
+Clack Void (The Clack void at the bottom of the sketch) set delay to suit your chosen relay for the ticking sound.
 
  
 ## Build Notes
@@ -98,7 +98,7 @@ Clack Void (See the Clack void at the end of the sketch) set delay to suit your 
              <img src="Images/swguard4a.jpg" width=300>
              <img src="Images/pattern1a.jpg" width=290>
  
-The switch guards are fabricated from 4mm Aluminium using a jewellers  saw and files from a brass template. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
+The switch guards are fabricated from 4mm Aluminium using a jewellers  saw and files. A template cut from thin brass is used as a cutting patern. (Took me about week with very sore fingers so persevere as these are a distinctive feature and worth having.
 
  ----------------------------------------------------------------------
 
@@ -116,7 +116,7 @@ This is a suggested template for the front panel Decals. Print this file onto A4
 ## Useful Informatiom.
 This code was written in the UK before I even thought it may be used elsewhere in the world hence you will see variables named GMT & BST. These are Grenwich Mean Time (UTC) and British Summer Time (Equivalent to your Summer Daylight Saving Time). Both may be set near the top of the sketch
  
-Most GPS modules will output a reliable time from first switch on before the GPS achieves Sat Lock. I found TinyGPS library did not do this so converted to TinyGPSPlus library. Additionally I added Battery Backup (Two AAA of AA Cels) to the Neo-6  GPS module to speed up Sat Lock. Suggestion: The GPS is powered permanantly regardless of switch posion so the GPS is constantly locked.
+Most GPS modules will output a reliable time from first switch on before the GPS achieves Sat Lock. I found TinyGPS library did not do this so converted to TinyGPSPlus library. Additionally I added Battery Backup (Two AAA of AA Cells) to the Neo-6  GPS module to speed up Sat Lock. Suggestion: The GPS is powered permanantly regardless of switch posion so the GPS is constantly locked.
  
 
 That's all folks. 
