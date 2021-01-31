@@ -121,4 +121,4 @@ Most GPS modules will output a reliable time from first switch on before the GPS
 
 That's all folks. 
 
-<a href="https://github.com/G4FEV/Soyuz-Capsule-Digital-Clock/archive/master.zip"><font size="2"> DOWNLOAD SOYUZ CLOCK PROJECT as zip</font></a>
+<a href="https://github.com/G4FEV/-Soyuz-Capsule-Digital-Clock/master.zip"><font size="2"> DOWNLOAD SOYUZ CLOCK PROJECT as zip</font></a>
