@@ -9,8 +9,8 @@
 This software is given freely for non-commercial use with no guarantee given or implied.
 
 
-<a href="https://github.com/G4FEV/-Soyuz-Capsule-Digital-Clock/archive/master.zip"><font size="2"> DOWNLOAD SOYUZ CLOCK PROJECT as zip</font></a>
-
+<a href="https://github.com/G4FEV/-Soyuz-Capsule-Digital-Clock/archive/main.zip"><font size="2"> DOWNLOAD SOYUZ CLOCK PROJECT as zip</font></a>
+         
 ## What is this?
 
 An Arduino is used to decode NMEA data from a GPS Module and display the Time and Date.
