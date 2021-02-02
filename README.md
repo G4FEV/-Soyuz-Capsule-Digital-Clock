@@ -1,4 +1,4 @@
-<meta name='keywords' content='G4FEV, SDRUno, SDRplay'>
+<meta name='keywords' content='G4FEV, Soyuz Capsule Digital Clock 744H,'>
 
 # SOYUZ CAPSULE DIGITAL CLOCK
 
