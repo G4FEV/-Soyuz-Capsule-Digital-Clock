@@ -4,7 +4,7 @@
 
 ## David Whitty G4FEV
 
-<i>Last edit 29th Jan 2021.</i>
+<i>Last edit 5th Feb 2021.</i>
 
 This software is given freely for non-commercial use with no guarantee given or implied.
 
