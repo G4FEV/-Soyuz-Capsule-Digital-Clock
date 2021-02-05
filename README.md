@@ -114,6 +114,7 @@ The mounting flange was cut from Paxolin board or a similar plastic and bonded t
 <P ALIGN="LEFT">This is a suggested template for the front panel Decals. Print this file onto A4 Waterslide Decal Transfer paper or edit using your favourite jpg editor.
  
 ## Useful Informatiom.
+You will find more pictures of the construction of this replica here: http://g4fev.atspace.com/soyuz_clock.htm
 This code was written in the UK before I even thought it may be used elsewhere in the world hence you will see variables named GMT & BST. These are Greenwich Mean Time (UTC) and British Summer Time (Equivalent to your Summer Daylight Saving Time). Both may be set near the top of the sketch
  
 Most GPS modules will output a reliable time from first switch on before the GPS achieves Sat Lock. I found TinyGPS library did not do this so converted to TinyGPSPlus library. Additionally I added Battery Backup (Two AAA of AA Cells) to the Neo-6  GPS module to speed up Sat Lock. Suggestion: The GPS is powered permanently regardless of switch position so the GPS is constantly locked.
